@@ -1,0 +1,2 @@
+# quiz-app
+  A simple multiple-choice quiz application built using PyQt5. The app presents questions with multiple options, allows the user to select an answer, and provides feedback on whether the answer is correct or incorrect. It also tracks the user's score and displays detailed results at the end of the quiz. The application supports features like navigation between questions, validation of answers, and the option to view the results in full-screen mode.
