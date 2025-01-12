@@ -1,0 +1,29 @@
+// Once you understand the logic, you can remove the comment lines.
+// Mantığını anlandıktan sonra açıklama satırlarını silebilirsiniz.
+[
+  {
+    "question": "The question will be written here",  // The actual question for the quiz
+    "options": [  // The list of possible answer options
+      "A) ",
+      "B) ",
+      "C) ",
+      "D) ",
+      "E) "
+    ],
+    "answer": "The correct answer will be written here"  // The correct answer to the question
+  }
+
+
+  {
+    "question": "",  // Quiz için sorunun kendisi tırnakların içine yazılacak
+    "options": [  // Olası cevap seçeneklerinin listesi
+      "A) ",
+      "B) ",
+      "C) ",
+      "D) ",
+      "E) "
+    ],
+    "answer": ""  // Sorunun doğru cevabı Tırnakların içine yazılacak
+  }
+
+]
