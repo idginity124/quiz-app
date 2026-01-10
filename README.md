@@ -1,31 +1,40 @@
-# quiz-app
-  A simple multiple-choice quiz application built using PyQt5. The app presents questions with multiple options, allows the user to select an answer, and provides feedback on whether the answer is correct or incorrect. It also tracks the user's score and displays detailed results at the end of the quiz. The application supports features like navigation between questions, validation of answers, and the option to view the results in full-screen mode.
+# 🧠 Quiz App - Python Desktop Application
 
-  # quiz-app
-  PyQt5 kullanılarak oluşturulmuş basit bir çoktan seçmeli quiz uygulaması. Uygulama, soruları ve seçenekleri kullanıcıya sunar, kullanıcı bir cevap seçer ve cevabın doğru veya yanlış olduğuna dair geri bildirim verir. Ayrıca kullanıcının puanını takip eder ve quizin sonunda ayrıntılı sonuçları gösterir. Uygulama, sorular arasında gezinme, cevapları doğrulama ve sonuçları tam ekran modunda görüntüleme gibi özellikleri destekler.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![JSON](https://img.shields.io/badge/Data-JSON-lightgrey?style=for-the-badge)
+![License](https://img.shields.io/github/license/idginity124/quiz-app?style=for-the-badge)
 
-## Features(Özellikler)
-- Multiple-choice questions with feedback on correct or incorrect answers(Doğru veya yanlış cevaplar hakkında geri bildirim ile çoktan seçmeli sorular.).
-- Score tracking throughout the quiz(Quiz boyunca puan takibi).
-- Navigation between questions (Next and Previous buttons)(Sorular arasında gezinme (Sonraki ve Önceki butonları).).
-- "Finish" button to complete the quiz and view results(Soruyu tamamlamak ve sonuçları görmek için "Bitir" butonu.).
-- Option to toggle Full-Screen mode for better viewing(Daha iyi görüntüleme için Tam Ekran modu seçeneği.).
-- Dark-themed interface for a user-friendly experience(Kullanıcı dostu bir deneyim için karanlık tema.).
-- Detailed results with correct and incorrect answers after quiz completion(Quiz tamamlandığında doğru ve yanlış cevaplarla ayrıntılı sonuçlar.).
+**Quiz App**, PyQt5 kütüphanesi kullanılarak geliştirilmiş, modern arayüze sahip bir masaüstü bilgi yarışması uygulamasıdır. Kullanıcı dostu tasarımı, puan takibi ve anlık geri bildirim özellikleri ile Python öğrenenler için harika bir örnek projedir.
 
-## Installation
+*(A simple multiple-choice quiz application built using PyQt5. Features dark mode, score tracking, and JSON-based question management.)*
 
-1. Clone this repository to your local machine(Bu depo'yu yerel makinenize klonlayın):
-   ```bash
-   git clone https://github.com/idginity124/quiz-app.git
+---
 
-2. Install the required dependencies (Gerekli bağımlılıkları yükleyin):
-   ```bash
-   pip install PyQt5
+## 📷 Ekran Görüntüsü (Screenshot)
 
+<img src="https://via.placeholder.com/800x500?text=Uygulama+Ekran+Görüntüsü+Buraya" width="100%">
 
-3. Ensure you have a questions.json file in the root directory with the quiz data.(Kök dizinde quiz verisini içeren bir questions.json dosyanızın olduğundan emin olun)
+---
 
-4. Run the application(Uygulamayı çalıştırın):
-   ```bash
-   python quiz_app.py
+## ✨ Özellikler (Features)
+
+Bu proje hem **Eğitici** hem de **Fonksiyonel** özellikler barındırır:
+
+* ✅ **Çoktan Seçmeli Sorular (Multiple Choice):** `questions.json` üzerinden dinamik soru yükleme.
+* 📊 **Puan Takibi (Score Tracking):** Doğru/Yanlış cevaplara göre anlık skor hesaplama.
+* 🎨 **Karanlık Mod (Dark Theme):** Göz yormayan modern siyah arayüz.
+* 🖥️ **Tam Ekran Modu (Full Screen):** Odaklanmayı artıran tam ekran seçeneği.
+* navigation **Kolay Gezinme:** Sorular arasında "Sonraki" ve "Önceki" butonları ile geçiş.
+* 📝 **JSON Tabanlı Veri:** Soruları kodun içine gömmek yerine harici bir dosyadan çeker (Kolayca yeni soru eklenebilir).
+
+---
+
+## 🛠️ Kurulum (Installation)
+
+Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+**1. Projeyi Klonlayın:**
+```bash
+git clone [https://github.com/idginity124/quiz-app.git](https://github.com/idginity124/quiz-app.git)
+cd quiz-app
