@@ -1,38 +1,40 @@
 # 🧠 Quiz App - Python Desktop Application
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyQt5](https://img.shields.io/badge/PyQt5-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![JSON](https://img.shields.io/badge/Data-JSON-lightgrey?style=for-the-badge)
 ![License](https://img.shields.io/github/license/idginity124/quiz-app?style=for-the-badge)
 
-**Quiz App**, Python ve PyQt5 kullanılarak geliştirilmiş, modern ve kullanıcı dostu bir masaüstü bilgi yarışması uygulamasıdır. Dinamik soru yapısı, puanlama sistemi ve özelleştirilmiş karanlık teması ile Python öğrenenler için kapsamlı bir örnek projedir.
+**Quiz App**, PyQt5 kütüphanesi kullanılarak geliştirilmiş, modern arayüze sahip bir masaüstü bilgi yarışması uygulamasıdır. Kullanıcı dostu tasarımı, puan takibi ve anlık geri bildirim özellikleri ile Python öğrenenler için harika bir örnek projedir.
 
-*(A modern desktop quiz application built with Python and PyQt5. Features custom dark theme, dynamic JSON-based question loading, and score tracking.)*
+*(A simple multiple-choice quiz application built using PyQt5. Features dark mode, score tracking, and JSON-based question management.)*
 
 ---
 
 ## 📷 Ekran Görüntüsü (Screenshot)
 
-<img src="https://via.placeholder.com/800x500?text=Quiz+App+Screenshot" width="100%">
+<img src="https://via.placeholder.com/800x500?text=Uygulama+Ekran+Görüntüsü+Buraya" width="100%">
 
 ---
 
 ## ✨ Özellikler (Features)
 
-* 🎨 **Modern Karanlık Mod:** `QPalette` ile özelleştirilmiş, göz yormayan koyu gri tema.
-* 📂 **JSON Tabanlı Veri:** Sorular kodun içine gömülü değildir; `questions.json` dosyasından dinamik olarak çekilir.
-* ✅ **Anlık Geri Bildirim:** "Doğrula" butonu ile cevabın doğru veya yanlış olduğunu anında renkli uyarılarla gösterir.
-* 📊 **Puan Takibi:** Kullanıcının doğrularını sayar ve test sonunda başarı raporu sunar.
-* 📝 **Detaylı Sonuç Ekranı:** Test bitiminde tüm soruları, verdiğiniz cevapları ve doğru cevapları listeleyen özel pencere.
-* navigation **Kolay Gezinme:** Sorular arasında ileri-geri gitme imkanı.
+Bu proje hem **Eğitici** hem de **Fonksiyonel** özellikler barındırır:
+
+* ✅ **Çoktan Seçmeli Sorular (Multiple Choice):** `questions.json` üzerinden dinamik soru yükleme.
+* 📊 **Puan Takibi (Score Tracking):** Doğru/Yanlış cevaplara göre anlık skor hesaplama.
+* 🎨 **Karanlık Mod (Dark Theme):** Göz yormayan modern siyah arayüz.
+* 🖥️ **Tam Ekran Modu (Full Screen):** Odaklanmayı artıran tam ekran seçeneği.
+* navigation **Kolay Gezinme:** Sorular arasında "Sonraki" ve "Önceki" butonları ile geçiş.
+* 📝 **JSON Tabanlı Veri:** Soruları kodun içine gömmek yerine harici bir dosyadan çeker (Kolayca yeni soru eklenebilir).
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+## 🛠️ Kurulum (Installation)
 
 Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-**1. Projeyi İndirin:**
+**1. Projeyi Klonlayın:**
 ```bash
-git clone [https://github.com/idginity124/quiz-app.git](https://github.com/idginity124/quiz-app.git)
+git clone https://github.com/idginity124/quiz-app.git
 cd quiz-app
