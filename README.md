@@ -13,7 +13,7 @@
 
 ## 📷 Ekran Görüntüsü (Screenshot)
 
-<img src="https://via.placeholder.com/800x500?text=Uygulama+Ekran+Görüntüsü+Buraya" width="100%">
+<img src="Screen.png" width="100%">
 
 ---
 
